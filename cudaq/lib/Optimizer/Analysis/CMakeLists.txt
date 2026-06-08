@@ -1,26 +1,15 @@
 # ============================================================================ #
-# Copyright (c) 2022 - 2026 NVIDIA Corporation & Affiliates.                   #
+# Copyright (c) 2026 NVIDIA Corporation & Affiliates.                          #
 # All rights reserved.                                                         #
 #                                                                              #
 # This source code and the accompanying materials are made available under     #
 # the terms of the Apache License 2.0 which accompanies this distribution.     #
 # ============================================================================ #
 
-add_cudaq_dialect_library(CCDialect
-  CCDialect.cpp
-  CCOps.cpp
-  CCTypes.cpp
+add_cudaq_library(OptAnalysis
+  UnitaryOpGrouping.cpp
 
   DEPENDS
-    CCDialectIncGen
-    CCOpsIncGen
-    CCTypesIncGen
-
-  LINK_LIBS PUBLIC
-    MLIRComplexDialect
-    MLIRControlFlowDialect
-    MLIRFuncDialect
-    MLIRLLVMDialect
-    MLIRLoopLikeInterface
-    MLIRIR
+    CCDialect
+    QuakeDialect
 )
