@@ -28,6 +28,7 @@ ConnectX
 CuPy
 DCO
 DGX
+DOCA
 DOI
 Deuteron
 Deutsch
@@ -46,6 +47,7 @@ GPU
 GPUDirect
 GPUs
 GitHub
+GoogleTest
 HPC
 HSB
 HTTP
@@ -57,6 +59,8 @@ Hamiltonians
 Hololink
 Holoscan
 Homebrew
+IB
+INIT
 IQM
 InfiniBand
 Infleqtion
@@ -117,10 +121,12 @@ QEC
 QIR
 QIS
 QOP
+QP
 QPP
 QPU
 QPUs
 QPU’s
+QPs
 QRMI
 QTX
 QX
@@ -134,8 +140,11 @@ RDMA
 REPL
 RHEL
 RPC
+RPCs
 RSA
 RSH
+RTR
+RTS
 Realtime
 RoCE
 SDK
@@ -154,10 +163,12 @@ TII
 TableGen
 Toffoli
 Toshiko
+UC
 UCCSD
 VQE
 Vazirani
 Verilog
+WQEs
 WSL
 Xcode
 Zener
@@ -302,6 +313,7 @@ linkers
 logarithmically
 lookup
 lookups
+loopback
 lossy
 lvalue
 macOS
@@ -358,12 +370,16 @@ qumodes
 reStructuredText
 realtime
 reconfigurable
+recv
 reproducibility
+responder
 resultData
 reusability
+rkey
 runtime
 runtimes
 rvalue
+rx
 scalability
 scalable
 schemas
